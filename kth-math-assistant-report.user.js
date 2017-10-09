@@ -51,11 +51,11 @@ function doStuff() {
     var rows = table.children().slice(1);
 
     var Pbutton = $("<td><button type=button style='background-color: lightgreen;'>PASS</button></td>");
-    Pbutton.on("click", buttonScript("P"));
+    Pbutton.find("button").on("click", buttonScript("P"));
     rows.append(Pbutton);
 
     var Fbutton = $("<td><button type=button style='background-color: lightpink;'>FAIL</button></td>");
-    Fbutton.on("click", buttonScript("F"));
+    Fbutton.find("button").on("click", buttonScript("F"));
     rows.append(Fbutton);
 
     var lastRow = $("<tr></tr>");

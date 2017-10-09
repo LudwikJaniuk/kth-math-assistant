@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         KTH Math assistant
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Make result reporting easier for KTH math assistants. Add pass/fail buttons and result counters at the bottom.
 // @author       Ludvig Janiuk (janiuk@kth.se ludvig.janiuk@gmail.com)
 // @match        http://kthgrumatte.webfactional.com/semres/*/*/edit
